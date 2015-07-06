@@ -1,0 +1,67 @@
+ <body background="map.jpg">
+<style>body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
+}</style> <div id="nav">
+    <div id="nav_wrapper">
+        <ul>
+            <li><a href="index.html">index</a>
+            </li>
+            <li> <a href="index1.html">index by population</a>
+            </li>
+            <li> <a href="index3.html">index by continent</a>
+                <ul>
+                    <li><a href="continent_Europe.html">Europe</a></li><li><a href="continent_Oceania.html">Oceania</a></li><li><a href="continent_Antarctica.html">Antarctica</a></li><li><a href="continent_Asia.html">Asia</a></li><li><a href="continent_North_America.html">North_America</a></li><li><a href="continent_Africa.html">Africa</a></li><li><a href="continent_South_and_Central_America.html">South_and_Central_America</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- Nav wrapper end -->
+</div>
+<!-- Nav end -->
